@@ -39,3 +39,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 <!-- DevPing contribution test by @honeyspot2 -->
+
+## Utilities
+
+This fork adds a few shared helpers:
+
+- `src/lib/format.ts` — `truncate`, `pluralise`, `formatBytes`, `titleFromSlug`
+- `src/lib/math.ts` — `sum`, `mean`, `clamp`, `percent`
+- `src/components/stat-card.tsx` — a small stat tile component
